@@ -1,0 +1,128 @@
+body {
+  font-family: "monaco"; 
+  background-color: white;
+  color: white; 
+  text-align: center; 
+  margin: 0 200px; 
+}
+
+header {
+  background-color: #FFE05D;
+  color: white; 
+  padding: 40px; 
+  font-family: "verdana"; 
+  font-weight: bold; 
+  text-shadow: 2px 2px #646464; 
+}
+
+.circle {
+  background-color: #646464;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.circle img {
+  position: center;
+  bottom: 0;
+  width: 100%;
+}
+
+section {
+  margin: 40px; 
+  padding: 20px; 
+  max width: 5px;
+  background-color: #FFFFEC; 
+}
+
+section h2 {
+  padding: 5px;
+  background-color: #FFE05D;
+  color: #646464;
+  font-family: "verdana";
+  text-shadow: 1px 1px white;
+  font-size: 15px;
+}
+
+section p, ul {
+  text-align: justify;
+  color: #646464; 
+}
+
+ul {
+  text-align: center; 
+  list-style-type: circle; 
+  list-style-position: inside;
+}
+
+.centered-list {
+    list-style: none; /* Remove a estilização padrão da lista */
+    display: flex;
+    justify-content: center; /* Centraliza os itens da lista horizontalmente */
+    padding: 0;
+}
+
+.centered-list li {
+    display: flex;
+    align-items: center; /* Alinha as bolinhas com o texto verticalmente */
+    margin: 0 50px; /* Adiciona espaçamento entre os itens */
+}
+
+.centered-list li:before {
+    content: '■'; /* Adiciona uma bolinha antes de cada item */
+    margin-right: 20px; /* Espaçamento entre a bolinha e o texto */
+}
+
+footer { 
+background-color: #FFE05D; 
+margin-top: 40px; 
+padding: 5px;
+font-size: 10px; 
+font-family: 'verdana'; 
+color: white; 
+text-align: center;
+font-weight: bold;
+}
+
+a {
+color: white;
+}
+
+
+.contact-container {
+  display: flex; /* Usa flexbox para centralizar os itens */
+  flex-direction: column; /* Organiza itens em coluna */
+  align-items: center; /* Centraliza itens horizontalmente */
+  gap: 2px; /* Espaçamento entre os itens */
+}
+
+.contact-details {
+  margin-bottom: 2px; /* Espaço entre os detalhes de contato e os ícones */
+  text-align: center; /* Centraliza o texto dos detalhes de contato */
+  color: white; /* Define a cor do texto como branco */
+}
+
+/* styles.css */
+.icon-container {
+  display: flex; /* Alinha os ícones lado a lado */
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  gap: 30px; /* Espaçamento entre os ícones */
+  padding: 2px; /* Adiciona espaçamento interno ao contêiner */
+}
+
+.icon {
+  width: 30px; /* Define o tamanho do ícone */
+  height: 30px;
+  cursor: pointer; /* Muda o cursor para pointer */
+  transition: transform 0.2s; /* Animação suave ao passar o mouse */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Aumenta o ícone ligeiramente ao passar o mouse */
+}
+
+
+
+
